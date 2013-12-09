@@ -1,4 +1,3 @@
 do ->
-  arr = [1, 2, 3]
-  for number in arr
-    console.log(number)
+  answer = 20
+  console.log six = (one = 1) + (two = 2) + (three = 3) unless answer is 10
