@@ -1,3 +1,7 @@
 do ->
-  answer = 20
-  console.log(6) if not (answer is 10)
+  x = on
+  y = yes
+  z = true
+  console.log(x)
+  console.log(y)
+  console.log(z)
