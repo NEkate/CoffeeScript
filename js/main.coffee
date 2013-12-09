@@ -1,2 +1,6 @@
 do ->
-  console.log x = [9...2]
+  class animals
+    constructor: (@name) ->
+
+    move: (meters) ->
+      console.log @name + "moved #{meters}m."
