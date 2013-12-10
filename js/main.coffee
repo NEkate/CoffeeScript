@@ -1,17 +1,6 @@
-class Animal
-  x = 0
+arr = [1..10]
 
-  constructor: ->
-    x++
+[v, midle..., x, r, last] = arr
 
-  move: (meters) ->
-    alert @name + " moved #{meters}m."
-
-  @getX: -> x
-
-obj = new Animal()
-obj = new Animal()
-obj = new Animal()
-obj = new Animal()
-
-console.log Animal.getX()
+console.log midle
+console.log x
