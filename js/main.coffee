@@ -1,4 +1,17 @@
-obj = {}
+class Animal
+  x = 0
 
-if obj.filed?.filed?().asd
-  asdas()
+  constructor: ->
+    x++
+
+  move: (meters) ->
+    alert @name + " moved #{meters}m."
+
+  @getX: -> x
+
+obj = new Animal()
+obj = new Animal()
+obj = new Animal()
+obj = new Animal()
+
+console.log Animal.getX()
