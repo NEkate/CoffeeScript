@@ -1,7 +1,7 @@
-obj =
-  field: 1, field2: 'dfg'
-  field4: 45
-  hybu: {guh: 5}, ygv:
-    jhiju: 5
+arr = [1..9]
+for int in arr
+  console.log(int)
+#change
+for int in arr then console.log(int)
 
-reset box, withFied: 'value', from: 4
+console.log(int) for int in arr
