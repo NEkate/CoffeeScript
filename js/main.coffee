@@ -1,7 +1,6 @@
-arr = [1..9]
-for int in arr
-  console.log(int)
-#change
-for int in arr then console.log(int)
-
-console.log(int) for int in arr
+name = 'Kate'
+age = 21
+console.log """My name is
+     "#{name}",
+     I`m #{age-5} years old
+"""
